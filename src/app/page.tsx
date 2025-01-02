@@ -8,12 +8,58 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { cn } from "@/lib/utils";
+import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
+import IconCloud from "@/components/ui/icon-cloud";
+import { Icons } from "@/components/icons";
+import { EnvelopeClosedIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
-const BLUR_FADE_DELAY = 0.04;
+const BLUR_FADE_DELAY = 0.06;
+
+const slugs = [
+  "typescript",
+  "python",
+  "javascript",
+  "mysql",
+  "pandas",
+  "tailwindcss",
+  "react",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "postgresql",
+  "cloudflare",
+  "vercel",
+  "git",
+  "github",
+  "figma",
+];
 
 export default function Page() {
   return (
+
+    /*<>
+    <div className="relative min-h-screen">
+      <p className="absolute inset-0 -z-10 h-full w-full overflow-hidden">
+      </p>
+      <AnimatedGridPattern
+        numSquares={30}
+        maxOpacity={0.1}
+        duration={3}
+        repeatDelay={1}
+        className={cn(
+          "fixed inset-0 -z-10 h-screen w-screen",
+          "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
+          "skew-y-12",
+        )}
+      />
+    </div>*/
+    
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -38,7 +84,27 @@ export default function Page() {
             </BlurFade>
           </div>
         </div>
+      
+      <div className="flex justify-left gap-6 ">
+      <BlurFade delay={BLUR_FADE_DELAY}>
+        <a href="https://github.com/kevinvalenciaa" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
+        <GitHubLogoIcon className="w-7 h-7"/>
+        </a>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY}>
+        <a href="https://www.linkedin.com/in/kevin-valenciaa/" className="hover:text-blue-500">
+          <LinkedInLogoIcon className="w-7 h-7" />
+       </a>
+       </BlurFade>
+       <BlurFade delay={BLUR_FADE_DELAY}>
+       <a href="mailto:krvalencia06@gmail.com" className="hover:text-blue-500">
+      <EnvelopeClosedIcon className="w-7 h-7"/>
+       </a>
+       </BlurFade>
+     </div>
       </section>
+
+
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-l text-gray-500 italic space-y-100">
@@ -113,6 +179,11 @@ export default function Page() {
             ))}
           </div>
         </div>
+
+        <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden bg-background px-20 pb-20 pt-8 mx-auto">
+        <IconCloud iconSlugs={slugs} />
+        </div>
+
       </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
@@ -208,5 +279,6 @@ export default function Page() {
         </div>
       </section>
     </main>
+    /*</>*/
   );
 }

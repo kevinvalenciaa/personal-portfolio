@@ -11,23 +11,24 @@ export const DATA = {
     "Full-Stack Developer | Student | F1 Enthusiast",
   summary:
     "",
+    
   avatarUrl: "/me.png",
   skills: [
     "Python",
     "Java",
     "JavaScript",
+    "Next.js",
     "SQL",
     "Typescript",
     "HTML",
     "CSS",
-    "PHP",
     "React.js",
     "Node.js",
     "Express.js",
     "MySQL",
+    "PostgreSQL",
     "Pandas",
-    "Tailwind CSS",
-    "Azure",
+    "Tailwind",
     "Git",
     "CloudFlare",
   ],
@@ -43,7 +44,6 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/kevinvalenciaa",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
@@ -57,7 +57,6 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:krvalencia06@gmail.com",
         icon: Icons.email,
-
         navbar: true,
       },
       Resume: {
@@ -149,14 +148,14 @@ export const DATA = {
       description:
         /*"With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage."*/"Coming soon..",
       technologies: [
+        "React",
         "Next.js",
-        "Typescript",
+        "Node.js",
+        "Auth0",
         "PostgreSQL",
+        "Vercel",
         "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Tailwind CSS",
       ],
       links: [
         {

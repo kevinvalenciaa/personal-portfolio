@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
@@ -37,9 +36,9 @@ export const cloudProps: Omit<ICloud, "children"> = {
     clickToFront: 500,
     tooltipDelay: 0,
     outlineColour: "#0000",
-    maxSpeed: 0.04,
-    minSpeed: 0.02,
-    // dragControl: false,
+    maxSpeed: 0.01,
+    minSpeed: 0.005,
+    dragControl: true,
   },
 };
 
@@ -57,7 +56,7 @@ export const renderCustomIcon = (
     bgHex,
     fallbackHex,
     minContrastRatio,
-    size: 42,
+    size: 75,
     aProps: {
       href: undefined,
       target: undefined,
@@ -69,7 +68,7 @@ export const renderCustomIcon = (
 
 type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>;
 
-export function IconCloud({
+export default function IconCloud({
   iconSlugs = [], // Default to an empty array if not provided
   imageArray,
 }: DynamicCloudProps) {
@@ -109,4 +108,3 @@ export function IconCloud({
     </Cloud>
   );
 }
-
