@@ -174,7 +174,7 @@ export default function Page() {
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill} className="px-4 py-2 text-lg font-semibold">{skill}</Badge>
+                <Badge key={skill} className="px-4 py-1">{skill}</Badge>
               </BlurFade>
             ))}
           </div>
