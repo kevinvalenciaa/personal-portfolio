@@ -159,6 +159,28 @@ export const DATA = {
         "Prisma",
         "Tailwind CSS",
       ],
+      /*links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],*/
+      image: "/qcorner.png",
+    },
+    {
+      title: "Budgetify",
+      href: "",
+      dates: "December 2024 - Present",
+      active: true,
+      description:
+       "a full-stack expense tracker application allowing users to track, categorize, and graphically visualize their finances.",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+      ],
       links: [
         {
           type: "Website",
@@ -166,9 +188,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/qcorner.png",
-      /*video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
+      image: "/budgetify.png",
     },
     {
       title: "Magic Ring Quest",
@@ -182,11 +202,6 @@ export const DATA = {
         "PyGame",
       ],
       links: [
-        /*{
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },*/
         {
           type: "Source",
           href: "https://github.com/kevinvalenciaa/Magic-Ring-Quest",
@@ -194,7 +209,6 @@ export const DATA = {
         },
       ],
       image: "/game.png",
-      /*video: "https://cdn.magicui.design/bento-grid.mp4",*/
     },
     
   ],

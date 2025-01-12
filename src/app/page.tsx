@@ -216,7 +216,7 @@ export default function Page() {
                   tags={project.technologies}
                   image={project.image}
                   /*video={project.video}*/
-                  links={project.links}
+                  /*links={project.links}*/
                 />
               </BlurFade>
             ))}
@@ -232,7 +232,7 @@ export default function Page() {
                   Hackathons
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
+                  During my time in university, I've attended{" "}
                   {DATA.hackathons.length}+ hackathons. People from around the
                   country would come together and build incredible things in 2-3
                   days. It was eye-opening to see the endless possibilities
