@@ -161,13 +161,16 @@ export const DATA = {
         "Prisma",
         "Tailwind CSS",
       ],
-      /*links: [
+      links: [
         {
-          type: "Website",
+          /*type: "Website",
           href: "",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globe className="size-3" />,*/
+          type: "Source",
+          href: "https://github.com/kevinvalenciaa/QCorner",
+          icon: <Icons.github className="size-3" />,
         },
-      ],*/
+      ],
       image: "/qcorner.png",
       /*video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
