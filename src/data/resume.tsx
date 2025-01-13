@@ -1,6 +1,8 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+// run "pnpm dev"
+
 export const DATA = {
   name: "Kevin Valencia",
   initials: "KV",
