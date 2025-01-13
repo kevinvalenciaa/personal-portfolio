@@ -189,11 +189,11 @@ export const DATA = {
         "MongoDB",
       ],
       links: [
-        {
+        /*{
           type: "Website",
           href: "",
           icon: <Icons.globe className="size-3" />,
-        },
+        },*/
         {
           type: "Source",
           href: "https://github.com/kevinvalenciaa/expense-tracker",
