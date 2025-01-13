@@ -167,6 +167,8 @@ export const DATA = {
         },
       ],*/
       image: "/qcorner.png",
+      /*video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
     },
     {
       title: "Budgetify",
@@ -187,8 +189,15 @@ export const DATA = {
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/kevinvalenciaa/expense-tracker",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/budgetify.png",
+      /*video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
     },
     {
       title: "Magic Ring Quest",
@@ -202,6 +211,11 @@ export const DATA = {
         "PyGame",
       ],
       links: [
+        /*{
+          type: "Website",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },*/
         {
           type: "Source",
           href: "https://github.com/kevinvalenciaa/Magic-Ring-Quest",
@@ -209,6 +223,7 @@ export const DATA = {
         },
       ],
       image: "/game.png",
+      /*video: "https://cdn.magicui.design/bento-grid.mp4",*/
     },
     
   ],
