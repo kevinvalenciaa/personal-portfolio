@@ -14,7 +14,7 @@ export const DATA = {
   summary:
     "",
     
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpeg",
   skills: [
     "Python",
     "Java",
