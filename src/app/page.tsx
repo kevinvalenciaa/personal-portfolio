@@ -36,6 +36,8 @@ const slugs = [
   "git",
   "github",
   "figma",
+  "mongodb",
+  "flask",
 ];
 
 export default function Page() {

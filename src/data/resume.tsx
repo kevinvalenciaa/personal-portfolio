@@ -29,6 +29,8 @@ export const DATA = {
     "Express.js",
     "MySQL",
     "PostgreSQL",
+    "MongoDB",
+    "Flask",
     "Pandas",
     "Tailwind",
     "Git",
