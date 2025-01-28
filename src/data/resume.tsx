@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
-// run "pnpm dev"
+// to run, enter "pnpm dev"
 
 export const DATA = {
   name: "Kevin Valencia",
@@ -172,6 +172,38 @@ export const DATA = {
         },
       ],
       image: "/qcorner.png",
+      /*video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
+    },
+    {
+      title: "NumNum",
+      href: "",
+      dates: "January 2025 - Present",
+      active: true,
+      description:
+       "A tinder-style dining app designed to simplify the decision-making process for choosing where to eat. NumNum personalizes restaurant recommendations based on user preferences, location, and dietary needs, alongside an AI-powered assistant that analyzes menus, suggests tailored dishes, plans routes, and even assists with reservations.",
+      technologies: [
+        "React.js",
+        "Next.js",
+        "Typescript",
+        "Python",
+        "Google Cloud Platform",
+        "Gemini API",
+        "Flask"
+      ],
+      links: [
+        /*{
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },*/
+        {
+          type: "Source",
+          href: "https://github.com/kevinvalenciaa/NumNum",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/numnum.jpeg",
       /*video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
     },
