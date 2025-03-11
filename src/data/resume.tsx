@@ -6,9 +6,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Kevin Valencia",
   initials: "KV",
-  url: "https://dillion.io",
+  url: "https://kevinvalencia.com",
   location: "Toronto, Canada",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "",
   description:
     "Full-Stack Developer | Student | F1 Enthusiast",
   summary:
@@ -76,6 +76,18 @@ export const DATA = {
 
   work: [
     {
+      company: "QWeb",
+      href: "https://qweb.dev/",
+      badges: [],
+      location: "Kingston, Ontario",
+      title: "Lead Full Stack Developer",
+      logoUrl: "/qweb.logo.jpeg",
+      start: "January 2025",
+      end: "Present",
+      description:
+        "Lead Web Developer @ Bader Lane Productions.",
+    },
+    {
       company: "COMPSA",
       href: "https://compsa.ca/",
       badges: [],
@@ -100,28 +112,16 @@ export const DATA = {
         "Reducing high operational costs in hospitals through predictive energy management, by developing a reinforcement learning model that uses Proximal Policy Optimization (PPO) to analyze energy data across variables like time, temperature, and occupancy levels.",
     },
     {
-      company: "Fortinos",
-      href: "https://www.fortinos.ca/en/",
-      badges: [],
-      location: "Oakville, Ontario",
-      title: "Food Clerk",
-      logoUrl: "/fortinos.png",
-      start: "September 2022",
-      end: "August 2023",
-      description:
-        "Cultivated an environment of open and effective communication, fostering positive relationships with 20+ colleagues and management to enhance team cohesion and operational excellence. Consistently upheld exemplary levels of customer service in high-volume, fast-paced environments to ensure customer satisfaction. Diligently maintained workspaces through adherence to cleanliness protocols, promoting maximum operational efficiency and upholding safety standards.",
-    },
-    {
       company: "Royal LePage",
       href: "https://www.royallepage.ca/en/",
       badges: [],
       location: "Oakville, Ontario",
-      title: "Co-op Placement",
+      title: "UI/UX Designer",
       logoUrl: "/royallepage.png",
       start: "June 2022",
       end: "August 2022",
       description:
-        "Facilitated several projects to help new hires and existing agents promote social media growth and build a network (Inhouse training solutions, social media marketing brochures). Directly worked with 10+ Real Estate agents and developed marketing materials to promote social media growth using grapshic designing tools (Adobe, Canva, VistaCreate). Implemented targeted digital marketing strategies that contributed to increased engagement and follower growth across various social media platforms (Facebook, Instagram, Twitter).",
+        "Facilitated several projects to help new hires and existing agents promote social media growth and build a network (Inhouse training solutions, social media marketing brochures). Directly worked with 10+ Real Estate agents and developed marketing materials to promote social media growth using graphic designing tools (Adobe, Canva, VistaCreate). Implemented targeted digital marketing strategies that contributed to increased engagement and follower growth across various social media platforms (Facebook, Instagram, Twitter).",
     },
   ],
 
@@ -146,13 +146,14 @@ export const DATA = {
     },
   ],
   projects: [
+    
     {
       title: "QCorner",
       href: "",
       dates: "September 2024 - Present",
       active: true,
       description:
-        /*"With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage."*/"Coming soon..",
+        /*"[OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store)*/"Coming soon..",
       technologies: [
         "React",
         "Next.js",
@@ -272,7 +273,7 @@ export const DATA = {
       dates: "January 2025",
       location: "Kingston, Ontario",
       description:
-        "Incoming Hacker.",
+        "Built NumNum, a tinder-style dining app designed to simplify the decision-making process for choosing where to eat. ",
       image:
         "qhacks.png",
       mlh: "",
