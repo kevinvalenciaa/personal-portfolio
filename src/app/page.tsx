@@ -3,13 +3,12 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Stack from "@/components/Stack";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { cn } from "@/lib/utils";
-import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 import IconCloud from "@/components/ui/icon-cloud";
 import { Icons } from "@/components/icons";
 import { EnvelopeClosedIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
@@ -42,23 +41,6 @@ const slugs = [
 
 export default function Page() {
   return (
-
-    /*<>
-    <div className="relative min-h-screen">
-      <p className="absolute inset-0 -z-10 h-full w-full overflow-hidden">
-      </p>
-      <AnimatedGridPattern
-        numSquares={30}
-        maxOpacity={0.1}
-        duration={3}
-        repeatDelay={1}
-        className={cn(
-          "fixed inset-0 -z-10 h-screen w-screen",
-          "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-          "skew-y-12",
-        )}
-      />
-    </div>*/
     
     <main className="flex flex-col min-h-[100dvh] space-y-10">
 
@@ -73,34 +55,52 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(' ')[0]} 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-xl italic"
+                className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
+              <Stack 
+                cardDimensions={{ width: 135, height: 135 }}
+                randomRotation={true}
+                sendToBackOnClick={true}
+                sensitivity={100}
+                cardsData={[
+                  { id: 1, img: "/profile1.jpg" },
+                  { id: 2, img: "/profile2.jpg" },
+                  { id: 3, img: "/profile3.jpg" },
+                  { id: 4, img: "/profile4.jpg" }
+                ]}
+                animationConfig={{ stiffness: 300, damping: 25 }}
+              />
             </BlurFade>
           </div>
         </div>
       
-      <div className="flex justify-left gap-6 ">
+      <div className="flex justify-left gap-6 mt-2">
       <BlurFade delay={BLUR_FADE_DELAY}>
-        <a href="https://github.com/kevinvalenciaa" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
-        <GitHubLogoIcon className="w-7 h-7"/>
+        <a href="https://github.com/kevinvalenciaa" target="_blank" rel="noopener noreferrer" className="group relative inline-block">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500/60 to-purple-600/60 opacity-0 blur transition-all duration-300 group-hover:opacity-100 group-hover:blur-md"></div>
+          <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
+            <GitHubLogoIcon className="w-7 h-7 relative z-10" />
+          </div>
         </a>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY}>
-        <a href="https://www.linkedin.com/in/kevin-valenciaa/" className="hover:text-blue-500">
-          <LinkedInLogoIcon className="w-7 h-7" />
-       </a>
+        <a href="https://www.linkedin.com/in/kevin-valenciaa/" className="group relative inline-block">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-600/60 to-sky-400/60 opacity-0 blur transition-all duration-300 group-hover:opacity-100 group-hover:blur-md"></div>
+          <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
+            <LinkedInLogoIcon className="w-7 h-7 relative z-10" />
+          </div>
+        </a>
        </BlurFade>
        <BlurFade delay={BLUR_FADE_DELAY}>
-       <a href="mailto:krvalencia06@gmail.com" className="hover:text-blue-500">
-      <EnvelopeClosedIcon className="w-7 h-7"/>
+       <a href="mailto:krvalencia06@gmail.com" className="group relative inline-block">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-red-500/60 to-orange-400/60 opacity-0 blur transition-all duration-300 group-hover:opacity-100 group-hover:blur-md"></div>
+          <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
+            <EnvelopeClosedIcon className="w-7 h-7 relative z-10" />
+          </div>
        </a>
        </BlurFade>
      </div>

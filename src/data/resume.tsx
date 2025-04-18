@@ -10,7 +10,7 @@ export const DATA = {
   location: "Toronto, Canada",
   locationLink: "",
   description:
-    "Full-Stack Developer | Student | F1 Enthusiast",
+    "Software Engineer | Student | F1 Enthusiast",
   summary:
     "",
     
@@ -27,7 +27,6 @@ export const DATA = {
     "React.js",
     "Node.js",
     "Express.js",
-    "MySQL",
     "PostgreSQL",
     "MongoDB",
     "Flask",
@@ -76,30 +75,6 @@ export const DATA = {
 
   work: [
     {
-      company: "QWeb",
-      href: "https://qweb.dev/",
-      badges: [],
-      location: "Kingston, Ontario",
-      title: "Lead Full Stack Developer",
-      logoUrl: "/qweb.logo.jpeg",
-      start: "January 2025",
-      end: "Present",
-      description:
-        "Lead Web Developer @ Bader Lane Productions.",
-    },
-    {
-      company: "COMPSA",
-      href: "https://compsa.ca/",
-      badges: [],
-      location: "Kingston, Ontario",
-      title: "DevOps Intern",
-      logoUrl: "/compsa.png",
-      start: "September 2024",
-      end: "Present",
-      description:
-        "Enhanced website reliability by migrating 5+ web services to DigitalOcean using Git for manual repository deployment, reducing downtime by 20% and improving user experience for Queen’s students. Streamlined DNS management processes to support migration by leveraging Cloudflare for traffic redirection and DNS record updates, ensuring integration with DigitalOcean infrastructure.",
-    },
-    {
       company: "QMIND",
       badges: [],
       href: "https://qmind.ca/",
@@ -111,6 +86,31 @@ export const DATA = {
       description:
         "Reducing high operational costs in hospitals through predictive energy management, by developing a reinforcement learning model that uses Proximal Policy Optimization (PPO) to analyze energy data across variables like time, temperature, and occupancy levels.",
     },
+    {
+      company: "QWeb",
+      href: "https://qweb.dev/",
+      badges: [],
+      location: "Kingston, Ontario",
+      title: "Lead Full Stack Developer",
+      logoUrl: "/qweb.logo.jpeg",
+      start: "January 2025",
+      end: "April 2025",
+      description:
+        "Lead Web Developer @ Bader Lane Productions.",
+    },
+    {
+      company: "COMPSA",
+      href: "https://compsa.ca/",
+      badges: [],
+      location: "Kingston, Ontario",
+      title: "DevOps Intern",
+      logoUrl: "/compsa.png",
+      start: "September 2024",
+      end: "December 2024",
+      description:
+        "Enhanced website reliability by migrating 5+ web services to DigitalOcean using Git for manual repository deployment, reducing downtime by 20% and improving user experience for Queen's students. Streamlined DNS management processes to support migration by leveraging Cloudflare for traffic redirection and DNS record updates, ensuring integration with DigitalOcean infrastructure.",
+    },
+    
     {
       company: "Royal LePage",
       href: "https://www.royallepage.ca/en/",
@@ -153,7 +153,7 @@ export const DATA = {
       dates: "September 2024 - Present",
       active: true,
       description:
-        /*"[OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store)*/"Coming soon..",
+        "Coming soon..",
       technologies: [
         "React",
         "Next.js",
@@ -175,8 +175,6 @@ export const DATA = {
         },
       ],
       image: "/qcorner.png",
-      /*video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
     },
     {
       title: "NumNum",
@@ -207,8 +205,6 @@ export const DATA = {
         },
       ],
       image: "/numnum.jpeg",
-      /*video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
     },
     {
       title: "Budgetify",
@@ -236,8 +232,6 @@ export const DATA = {
         },
       ],
       image: "/budgetify.png",
-      /*video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",*/
     },
     {
       title: "Magic Ring Quest",
@@ -253,7 +247,7 @@ export const DATA = {
       links: [
         /*{
           type: "Website",
-          href: "https://magicui.design",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },*/
         {
@@ -263,7 +257,6 @@ export const DATA = {
         },
       ],
       image: "/game.png",
-      /*video: "https://cdn.magicui.design/bento-grid.mp4",*/
     },
     
   ],
