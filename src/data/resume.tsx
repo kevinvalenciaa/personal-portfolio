@@ -263,7 +263,7 @@ export const DATA = {
     {
       title: "Budgetify",
       href: "",
-      dates: "December 2024 - Present",
+      dates: "December 2024 - January 2025",
       active: true,
       description:
        "a full-stack expense tracker application allowing users to track, categorize, and graphically visualize their finances.",
