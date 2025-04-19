@@ -57,7 +57,12 @@ interface StackProps {
   sensitivity?: number;
   cardDimensions?: { width: number; height: number };
   sendToBackOnClick?: boolean;
-  cardsData?: { id: number; img: string; tooltip?: string }[];
+  cardsData?: { 
+    id: number; 
+    img: string; 
+    tooltip?: string;
+    imageStyle?: React.CSSProperties;
+  }[];
   animationConfig?: { stiffness: number; damping: number };
 }
 
@@ -152,6 +157,7 @@ export default function Stack({
                 src={card.img}
                 alt={`card-${card.id}`}
                 className="card-image"
+                style={card.imageStyle}
               />
             </motion.div>
           </CardRotate>

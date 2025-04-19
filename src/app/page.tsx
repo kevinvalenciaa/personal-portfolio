@@ -87,7 +87,15 @@ export default function Page() {
                   { id: 3, img: "/amazonlogo.jpg", tooltip: "Amazon Firm Day!" },
                   { id: 4, img: "/casecomp.png", tooltip: "2nd place at the QSAO Case Competition!" },
                   { id: 2, img: "/amazonfirmday.jpg", tooltip: "3rd at the Amazon Office Project Showcase!" },
-                  { id: 1, img: "/profile1.jpg", tooltip: "That's me! 👋" },
+                  { 
+                    id: 1, 
+                    img: "/profile1.jpg", 
+                    tooltip: "That's me! 👋",
+                    imageStyle: { 
+                      transform: 'scale(1.05)',
+                      objectPosition: 'center 30%'
+                    }
+                  },
                 ]}
                 animationConfig={{ stiffness: 300, damping: 25 }}
               />
