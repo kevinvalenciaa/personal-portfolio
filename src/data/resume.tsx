@@ -228,7 +228,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/qsao.png",
+      image: "/QSAO.png",
     },
     {
       title: "NumNum",
