@@ -233,7 +233,7 @@ export const DATA = {
     {
       title: "NumNum",
       href: "",
-      dates: "January 2025 - Present",
+      dates: "January 2025",
       active: true,
       description:
        "A tinder-style dining app designed to simplify the decision-making process for choosing where to eat. NumNum personalizes restaurant recommendations based on user preferences, location, and dietary needs, alongside an AI-powered assistant that analyzes menus, suggests tailored dishes, plans routes, and even assists with reservations.",
