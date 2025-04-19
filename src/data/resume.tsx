@@ -34,7 +34,6 @@ export const DATA = {
     "Tailwind",
     "Git",
     "CloudFlare",
-    "Vercel",
     "Figma",
   ],
   navbar: [
@@ -129,11 +128,11 @@ export const DATA = {
     {
       school: "Queen's University",
       href: "https://www.queensu.ca/",
-      degree: "Bachelor's Degree of Computing, Computer Science Specialization",
+      degree: "Computer Science (Software Design Specialization), Minor in Statistics",
       logoUrl: "/queens.png",
       start: "",
       end: "Expected 2028",
-      description: "Relevant Courses: Computer Science I and Computer Science II, Discrete Structures, Introduction to Statistics, Linear Algebra, Differential and Integral Calculus",
+      description: "Relevant Courses: Computer Science I and Computer Science II, Discrete Structures, Introduction to Statistics",
     },
     {
       school: "St. Ignatius of Loyola",
@@ -153,16 +152,14 @@ export const DATA = {
       dates: "September 2024 - Present",
       active: true,
       description:
-        "Coming soon..",
+        "QCorner is a campus-exclusive marketplace for Queen’s University students to buy, sell, and trade items like textbooks, furniture, and event tickets, as well as offer services like tutoring and coffee chats. It features user profiles, item listings with images, and real-time messaging, providing a safe and convenient platform for student-to-student exchanges and service offerings.",
       technologies: [
         "React",
         "Next.js",
-        "Node.js",
-        "Auth0",
+        "Express.js",
         "PostgreSQL",
-        "Vercel",
-        "Prisma",
         "Tailwind CSS",
+        "Auth0",
       ],
       links: [
         {
@@ -175,6 +172,63 @@ export const DATA = {
         },
       ],
       image: "/qcorner.png",
+    },
+    {
+      title: "Voyentra AI",
+      href: "",
+      dates: "January 2025 - Present",
+      active: true,
+      description:
+        "An AI-powered personalized travel concierge platform enabling users to plan vacation trips, flights, hotels, and generate custom AI-recommended itineraries. Integrated Gemini AI for a conversational chatbot that assists users in planning trips by generating personalized itineraries based on preferences, budget, and real-time travel data.",
+      technologies: [
+        "React",
+        "Next.js",
+        "Express.js",
+        "PostgreSQL",
+        "Python",
+        "Tailwind CSS",
+        "Gemini API",
+        "Flask",
+      ],
+      links: [
+        {
+          /*type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,*/
+          type: "Source",
+          href: "https://github.com/kevinvalenciaa/travel-concierge",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/voyentra-search.png",
+    },
+    {
+      title: "Data-Driven NBA Team Building",
+      href: "",
+      dates: "March 2025",
+      active: true,
+      description:
+       "Developed for the QSAO NBA Analytics Case Competition, where we placed 2nd, this project analyzes a team's roster and cap situation, builds a player valuation framework, and proposes data-driven free agent signings and a realistic trade to optimize team performance and future success.",
+      technologies: [
+        "Python",
+        "pandas",
+        "Matplotlib",
+        "NumPy",
+        "Seaborn",
+      ],
+      links: [
+        /*{
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },*/
+        {
+          type: "Source",
+          href: "https://github.com/kevinvalenciaa/QSAO-competition",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/qsao.png",
     },
     {
       title: "NumNum",
