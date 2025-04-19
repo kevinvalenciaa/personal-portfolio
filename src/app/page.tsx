@@ -46,9 +46,9 @@ export default function Page() {
       <div className="fixed inset-0 -z-10 h-full w-full overflow-hidden pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/70 z-0"></div>
         <Particles 
-          particleCount={900}
+          particleCount={700}
           particleSpread={40}
-          speed={0.03}
+          speed={0.02}
           particleBaseSize={100}
           moveParticlesOnHover={false}
           alphaParticles={false}
