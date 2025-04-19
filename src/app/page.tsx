@@ -48,7 +48,7 @@ export default function Page() {
         <Particles 
           particleCount={900}
           particleSpread={40}
-          speed={0.1}
+          speed={0.03}
           particleBaseSize={100}
           moveParticlesOnHover={false}
           alphaParticles={false}
