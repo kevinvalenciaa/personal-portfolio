@@ -8,13 +8,15 @@ interface CardRotateProps {
   children: React.ReactNode;
   onSendToBack: () => void;
   sensitivity: number;
+  tooltip?: string;
 }
 
-function CardRotate({ children, onSendToBack, sensitivity }: CardRotateProps) {
+function CardRotate({ children, onSendToBack, sensitivity, tooltip }: CardRotateProps) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const rotateX = useTransform(y, [-100, 100], [60, -60]);
   const rotateY = useTransform(x, [-100, 100], [-60, 60]);
+  const [showTooltip, setShowTooltip] = useState(false);
 
   function handleDragEnd(_: never, info: { offset: { x: number; y: number } }) {
     if (
@@ -37,7 +39,14 @@ function CardRotate({ children, onSendToBack, sensitivity }: CardRotateProps) {
       dragElastic={0.6}
       whileTap={{ cursor: "grabbing" }}
       onDragEnd={handleDragEnd}
+      onMouseEnter={() => setShowTooltip(true)}
+      onMouseLeave={() => setShowTooltip(false)}
     >
+      {tooltip && showTooltip && (
+        <div className="card-tooltip">
+          {tooltip}
+        </div>
+      )}
       {children}
     </motion.div>
   );
@@ -48,7 +57,7 @@ interface StackProps {
   sensitivity?: number;
   cardDimensions?: { width: number; height: number };
   sendToBackOnClick?: boolean;
-  cardsData?: { id: number; img: string }[];
+  cardsData?: { id: number; img: string; tooltip?: string }[];
   animationConfig?: { stiffness: number; damping: number };
 }
 
@@ -118,6 +127,7 @@ export default function Stack({
             key={card.id}
             onSendToBack={() => sendToBack(card.id)}
             sensitivity={sensitivity}
+            tooltip={card.tooltip}
           >
             <motion.div
               className="card"

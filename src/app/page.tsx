@@ -77,15 +77,17 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Stack 
-                cardDimensions={{ width: 135, height: 135 }}
+                cardDimensions={{ width: 160, height: 160 }}
                 randomRotation={true}
                 sendToBackOnClick={true}
                 sensitivity={100}
-                cardsData={[
-                  { id: 1, img: "/profile1.jpg" },
-                  { id: 2, img: "/profile2.jpg" },
-                  { id: 3, img: "/profile3.jpg" },
-                  { id: 4, img: "/profile4.jpg" }
+                cardsData={[ 
+                  { id: 6, img: "/qhacks.jpeg", tooltip: "My first ever hackathon at QHacks 2025!" },
+                  { id: 5, img: "/cucaistand.png", tooltip: "CUCAI 2025 Project Showcase!" },
+                  { id: 3, img: "/amazonlogo.jpg", tooltip: "Amazon Firm Day!" },
+                  { id: 4, img: "/casecomp.png", tooltip: "2nd place at the QSAO Case Competition!" },
+                  { id: 2, img: "/amazonfirmday.jpg", tooltip: "3rd at the Amazon Office Project Showcase!" },
+                  { id: 1, img: "/profile1.jpg", tooltip: "That's me! 👋" },
                 ]}
                 animationConfig={{ stiffness: 300, damping: 25 }}
               />
