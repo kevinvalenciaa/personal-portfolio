@@ -38,6 +38,13 @@ export const ResumeCard = ({
     }
   };
 
+  // Convert paragraph description into bullet points
+  const bulletPoints = description
+    ? description.split('. ')
+        .filter(sentence => sentence.trim().length > 0)
+        .map(sentence => sentence.trim().endsWith('.') ? sentence.trim() : sentence.trim() + '.')
+    : [];
+
   return (
     <Link
       href={href || "#"}
@@ -91,16 +98,19 @@ export const ResumeCard = ({
               initial={{ opacity: 0, height: 0 }}
               animate={{
                 opacity: isExpanded ? 1 : 0,
-
                 height: isExpanded ? "auto" : 0,
               }}
               transition={{
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm"
+              className="mt-2 text-xs sm:text-sm px-6 pb-4"
             >
-              {description}
+              <ul className="list-disc space-y-2 ml-4">
+                {bulletPoints.map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
+              </ul>
             </motion.div>
           )}
         </div>

@@ -134,7 +134,7 @@ export default function Page() {
 
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-l text-gray-500 italic space-y-100">
+          <h2 className="text-l text-gray-500 space-y-100">
             <span className="not-italic">{`📌`}</span> Toronto, Canada
             </h2>
         </BlurFade>

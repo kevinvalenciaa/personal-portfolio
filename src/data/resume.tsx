@@ -84,7 +84,7 @@ export const DATA = {
       start: "September 2024",
       end: "Present",
       description:
-        "Reducing high operational costs in hospitals through predictive energy management, by developing a reinforcement learning model that uses Proximal Policy Optimization (PPO) to analyze energy data across variables like time, temperature, and occupancy levels.",
+        "Conducted exploratory data analysis (EDA) on a 40,320-point dataset over two months, engineering features such as time-based, environmental, and building conditions using pandas and NumPy to predict optimal air handling unit start times. Utilized PyTorch and TensorFlow for deep neural network training, optimizing thermal prediction models that reduced calibration time by 40%. Architected a reinforcement learning framework for HVAC optimization using Stable Baselines 3, resulting in 15% energy savings while maintaining occupant comfort. Created comprehensive testing and validation framework with cross-validation methodology to ensure model robustness across diverse operational conditions.",
     },
     {
       company: "QWeb",
@@ -96,7 +96,7 @@ export const DATA = {
       start: "January 2025",
       end: "April 2025",
       description:
-        "Lead Web Developer @ Bader Lane Productions.",
+        "Lead Web Developer for Bader Lane Productions.",
     },
     {
       company: "COMPSA",
@@ -108,7 +108,7 @@ export const DATA = {
       start: "September 2024",
       end: "December 2024",
       description:
-        "Enhanced website reliability by migrating 5+ web services to DigitalOcean using Git for manual repository deployment, reducing downtime by 20% and improving user experience for Queen's students. Streamlined DNS management processes to support migration by leveraging Cloudflare for traffic redirection and DNS record updates, ensuring integration with DigitalOcean infrastructure.",
+        "Enhanced website reliability by migrating 5+ web services to DigitalOcean using Git for manual repository deployment, reducing downtime by 12% and improving user experience for Queen's students. Streamlined DNS management processes to support migration by leveraging Cloudflare for traffic redirection and DNS record updates, ensuring integration with DigitalOcean infrastructure.",
     },
     
     {
@@ -121,7 +121,7 @@ export const DATA = {
       start: "June 2022",
       end: "August 2022",
       description:
-        "Facilitated several projects to help new hires and existing agents promote social media growth and build a network (Inhouse training solutions, social media marketing brochures). Directly worked with 10+ Real Estate agents and developed marketing materials to promote social media growth using graphic designing tools (Adobe, Canva, VistaCreate). Implemented targeted digital marketing strategies that contributed to increased engagement and follower growth across various social media platforms (Facebook, Instagram, Twitter).",
+        "Facilitated projects to help agents promote social media growth and build networks. Developed in-house training solutions and social media marketing brochures. Directly worked with 10+ Real Estate agents to create marketing materials, using graphic design tools including Adobe, Canva, and VistaCreate. Implemented targeted digital marketing strategies that increased engagement across Facebook, Instagram, and Twitter.",
     },
   ],
 
