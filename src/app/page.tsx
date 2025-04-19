@@ -4,6 +4,7 @@ import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import Stack from "@/components/Stack";
+import Particles from "@/components/Particles";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
@@ -41,8 +42,22 @@ const slugs = [
 
 export default function Page() {
   return (
-    
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <>
+      <div className="fixed inset-0 -z-10 h-full w-full overflow-hidden pointer-events-none">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/70 z-0"></div>
+        <Particles 
+          particleCount={900}
+          particleSpread={40}
+          speed={0.1}
+          particleBaseSize={100}
+          moveParticlesOnHover={false}
+          alphaParticles={false}
+          disableRotation={false}
+          className="w-full h-full"
+        />
+      </div>
+      
+      <main className="flex flex-col min-h-[100dvh] space-y-10 relative z-10 backdrop-blur-[0px]">
 
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
@@ -281,6 +296,6 @@ export default function Page() {
         </div>
       </section>
     </main>
-    /*</>*/
+    </>
   );
 }
