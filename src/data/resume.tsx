@@ -78,7 +78,7 @@ export const DATA = {
       badges: [],
       href: "https://qmind.ca/",
       location: "Kingston, Ontario",
-      title: "AI/ML Designer",
+      title: "AI/ML Engineer",
       logoUrl: "/qmind.png",
       start: "September 2024",
       end: "Present",
