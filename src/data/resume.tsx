@@ -83,7 +83,7 @@ export const DATA = {
       start: "September 2024",
       end: "Present",
       description:
-        "Conducted exploratory data analysis (EDA) on a 40,320-point dataset over two months, engineering features such as time-based, environmental, and building conditions using pandas and NumPy to predict optimal air handling unit start times. Utilized PyTorch and TensorFlow for deep neural network training, optimizing thermal prediction models that reduced calibration time by 40%. Architected a reinforcement learning framework for HVAC optimization using Stable Baselines 3, resulting in 15% energy savings while maintaining occupant comfort. Created comprehensive testing and validation framework with cross-validation methodology to ensure model robustness across diverse operational conditions.",
+        "Conducted exploratory data analysis (EDA) on a 40,320-point dataset over two months, engineering features such as time-based, environmental, and building conditions using pandas and NumPy to predict optimal air handling unit start times. Utilized PyTorch and TensorFlow for deep neural network training, optimizing thermal prediction models that reduced calibration time by 40%. Architected a reinforcement learning framework for HVAC optimization using Stable Baselines 3, resulting in 15% energy savings while maintaining occupant comfort. Engineered comprehensive testing and validation framework with cross-validation methodology for a thermal prediction model, ensuring model robustness by maintaining 91% accuracy across diverse operational conditions.",
     },
     {
       company: "QWeb",
