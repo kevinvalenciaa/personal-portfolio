@@ -19,6 +19,7 @@ export const DATA = {
     "Python",
     "Java",
     "JavaScript",
+    "C",
     "Next.js",
     "SQL",
     "Typescript",
