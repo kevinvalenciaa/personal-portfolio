@@ -90,7 +90,7 @@ export const DATA = {
       href: "https://qweb.dev/",
       badges: [],
       location: "Kingston, Ontario",
-      title: "Lead Full Stack Developer",
+      title: "Software Engineer",
       logoUrl: "/qweb.logo.jpeg",
       start: "January 2025",
       end: "April 2025",
