@@ -102,7 +102,7 @@ export const DATA = {
       href: "https://compsa.ca/",
       badges: [],
       location: "Kingston, Ontario",
-      title: "DevOps EngineerIntern",
+      title: "DevOps Engineer Intern",
       logoUrl: "/compsa.png",
       start: "September 2024",
       end: "December 2024",
