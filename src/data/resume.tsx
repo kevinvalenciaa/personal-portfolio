@@ -34,6 +34,7 @@ export const DATA = {
     "Tailwind",
     "Git",
     "Kubernetes",
+    "Docker",
     "CloudFlare",
     "Figma",
   ],
