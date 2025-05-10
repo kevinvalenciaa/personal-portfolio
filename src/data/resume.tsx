@@ -59,7 +59,7 @@ export const DATA = {
       },
       Email: {
         name: "Send Email",
-        url: "mailto:krvalencia06@gmail.com",
+        url: "mailto:kevin.valencia@queensu.ca",
         icon: Icons.email,
         navbar: true,
       },
