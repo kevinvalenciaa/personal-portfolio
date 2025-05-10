@@ -95,7 +95,7 @@ export const DATA = {
       start: "January 2025",
       end: "April 2025",
       description:
-        "Lead Web Developer for Bader Lane Productions.",
+        "Led the end-to-end development of a responsive, public-facing website for a Queen’s-affiliated theatre company, enhancing its online presence and event accessibility.",
     },
     {
       company: "COMPSA",
