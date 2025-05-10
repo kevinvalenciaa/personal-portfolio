@@ -107,7 +107,7 @@ export const DATA = {
       start: "September 2024",
       end: "December 2024",
       description:
-        "Enhanced website reliability by migrating 5+ web services to DigitalOcean using Git for manual repository deployment, reducing downtime by 12% and improving user experience for Queen's students. Streamlined DNS management processes to support migration by leveraging Cloudflare for traffic redirection and DNS record updates, ensuring integration with DigitalOcean infrastructure.",
+        "Spearheaded the migration of 5+ web services from internal university infrastructure to DigitalOcean, implementing Git-based deployment workflows and achieving a 12% reduction in downtime and improved user experience. Streamlined DNS management processes to support migration by leveraging Cloudflare for traffic redirection and DNS record updates, ensuring integration with DigitalOcean infrastructure.",
     },
     
     {
