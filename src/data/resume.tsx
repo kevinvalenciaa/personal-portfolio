@@ -95,7 +95,7 @@ export const DATA = {
       start: "January 2025",
       end: "April 2025",
       description:
-        "Led the end-to-end development of a responsive, public-facing website for a Queen’s-affiliated theatre company, enhancing its online presence and event accessibility. Oversaw a team of 5+ software developers, managing timelines, design decisions, and scope using agile practices.",
+        "Led the end-to-end development of a responsive, public-facing website for a Queen’s-affiliated theatre company, enhancing its online presence and event accessibility. Oversaw a team of 5+ software developers, managing timelines, design decisions, and scope using agile practices. Built and deployed the site using React, TypeScript, and Next.js with version control via Git and GitHub.",
     },
     {
       company: "COMPSA",
