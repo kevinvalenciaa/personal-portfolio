@@ -41,7 +41,7 @@ export const DATA = {
     /*{ href: "/blog", icon: NotebookIcon, label: "Blog" },*/
   ],
   contact: {
-    email: "krvalencia06@gmail.com",
+    email: "kevin.valencia@queensu.ca",
     tel: "6479167367",
     social: {
       GitHub: {
