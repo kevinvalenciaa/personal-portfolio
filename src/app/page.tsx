@@ -123,7 +123,7 @@ export default function Page() {
             <LinkedInLogoIcon className="w-7 h-7 relative z-10" />
           </div>
           <div className="absolute -top-10 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-gray-900/85 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm border border-gray-700/30 pointer-events-none">
-            let's connect!
+            let&apos;s connect!
           </div>
         </a>
        </BlurFade>
