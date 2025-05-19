@@ -13,6 +13,7 @@ import { cn } from "@/lib/utils";
 import IconCloud from "@/components/ui/icon-cloud";
 import { Icons } from "@/components/icons";
 import { EnvelopeClosedIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import React from "react";
 
 const BLUR_FADE_DELAY = 0.06;
 
@@ -121,10 +122,20 @@ export default function Page() {
         </a>
        </BlurFade>
        <BlurFade delay={BLUR_FADE_DELAY}>
-       <a href="mailto:krvalencia06@gmail.com" className="group relative inline-block">
+       <a href="mailto:kevin.valencia@queensu.ca" className="group relative inline-block">
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-red-500/60 to-orange-400/60 opacity-0 blur transition-all duration-300 group-hover:opacity-100 group-hover:blur-md"></div>
           <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
             <EnvelopeClosedIcon className="w-7 h-7 relative z-10" />
+          </div>
+       </a>
+       </BlurFade>
+       <BlurFade delay={BLUR_FADE_DELAY}>
+       <a href={DATA.contact.social.Resume.url} target="_blank" rel="noopener noreferrer" className="group relative inline-block">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-emerald-500/60 to-green-400/60 opacity-0 blur transition-all duration-300 group-hover:opacity-100 group-hover:blur-md"></div>
+          <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
+            <div className="w-7 h-7 relative z-10">
+              {React.createElement(DATA.contact.social.Resume.icon, { className: "w-full h-full" })}
+            </div>
           </div>
        </a>
        </BlurFade>
