@@ -111,6 +111,9 @@ export default function Page() {
           <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
             <GitHubLogoIcon className="w-7 h-7 relative z-10" />
           </div>
+          <div className="absolute -top-10 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-gray-900/85 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm border border-gray-700/30 pointer-events-none">
+            my github!
+          </div>
         </a>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY}>
@@ -119,6 +122,9 @@ export default function Page() {
           <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
             <LinkedInLogoIcon className="w-7 h-7 relative z-10" />
           </div>
+          <div className="absolute -top-10 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-gray-900/85 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm border border-gray-700/30 pointer-events-none">
+            let's connect!
+          </div>
         </a>
        </BlurFade>
        <BlurFade delay={BLUR_FADE_DELAY}>
@@ -126,6 +132,9 @@ export default function Page() {
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-red-500/60 to-orange-400/60 opacity-0 blur transition-all duration-300 group-hover:opacity-100 group-hover:blur-md"></div>
           <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
             <EnvelopeClosedIcon className="w-7 h-7 relative z-10" />
+          </div>
+          <div className="absolute -top-10 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-gray-900/85 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm border border-gray-700/30 pointer-events-none">
+            contact me!
           </div>
        </a>
        </BlurFade>
@@ -136,6 +145,9 @@ export default function Page() {
             <div className="w-7 h-7 relative z-10">
               {React.createElement(DATA.contact.social.Resume.icon, { className: "w-full h-full" })}
             </div>
+          </div>
+          <div className="absolute -top-10 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-gray-900/85 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm border border-gray-700/30 pointer-events-none">
+            my experience!
           </div>
        </a>
        </BlurFade>
