@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 // to run, enter "pnpm dev"
 
 export const DATA = {
-  name: "Kevin Valencia",
+  name: "kevin valencia",
   initials: "KV",
   url: "https://kevinvalencia.com",
-  location: "Toronto, Canada",
+  location: "toronto, tanada",
   locationLink: "",
   description:
-    "Software Engineer | Student | F1 Enthusiast",
+    "software engineer | student | f1 enthusiast",
   summary:
     "",
     
@@ -21,22 +21,15 @@ export const DATA = {
     "JavaScript",
     "C",
     "React.js",
-    "Next.js",
     "SQL",
-    "Typescript",
-    "HTML",
-    "CSS",
+    "TypeScript",
     "Node.js",
     "Express.js",
     "PostgreSQL",
-    "MongoDB",
-    "Flask",
     "Pandas",
-    "Tailwind",
     "Git",
     "Kubernetes",
     "Docker",
-    "CloudFlare",
     "Figma",
   ],
   navbar: [
@@ -319,7 +312,7 @@ export const DATA = {
     },
     
   ],
-  hackathons: [
+  /*hackathons: [
     {
       title: "QHacks",
       dates: "January 2025",
@@ -331,5 +324,5 @@ export const DATA = {
       mlh: "",
       links: [],
     },
-  ],
+  ],*/
 } as const;
