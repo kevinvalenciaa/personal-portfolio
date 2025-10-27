@@ -10,7 +10,7 @@ export const DATA = {
   location: "toronto, tanada",
   locationLink: "",
   description:
-    "software engineer | student | f1 enthusiast",
+    "software engineer | 19 y/o builder | f1 enthusiast",
   summary:
     "",
     
@@ -124,7 +124,7 @@ export const DATA = {
     {
       school: "Queen's University",
       href: "https://www.queensu.ca/",
-      degree: "Computer Science (Software Design Specialization), Minor in Statistics",
+      degree: "Computer Science (AI Specialization), Minor in Statistics",
       logoUrl: "/queens.png",
       start: "",
       end: "Expected 2028",
