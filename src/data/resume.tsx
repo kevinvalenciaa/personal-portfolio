@@ -7,10 +7,10 @@ export const DATA = {
   name: "kevin valencia",
   initials: "KV",
   url: "https://kevinvalencia.com",
-  location: "toronto, tanada",
+  location: "toronto, canada",
   locationLink: "",
   description:
-    "software engineer | 19 y/o builder | f1 enthusiast",
+    "a digital repository.",
   summary:
     "",
     
