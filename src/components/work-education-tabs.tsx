@@ -49,8 +49,8 @@ export function WorkEducationTabs() {
               title="Clover Labs"
               subtitle="Software Engineer Intern"
               dates="October 2025 - Present"
-              image="/SCR-20251118-phnw.jpeg"
-              description="Developed and maintained web applications using modern frameworks. Collaborated with cross-functional teams to deliver high-quality software solutions. Implemented new features and optimized existing codebase for better performance."
+              image="/cloverlabs-mockup.png"
+              description="A portfolio of four verticalized ('leafs') AI growth agents. On track to hit $10M ARR in 2025. We're profitability obsessed, and proudly Canadian 🍁."
             />
           </BlurFade>
         </div>

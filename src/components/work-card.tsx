@@ -28,7 +28,7 @@ export function WorkCard({
 }: WorkCardProps) {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
-  const handleClick = (e: React.MouseEvent) => {
+  const handleClick = (e: React.MouseEvent<HTMLDivElement | HTMLHeadingElement>) => {
     if (description) {
       e.preventDefault();
       setIsExpanded(!isExpanded);
@@ -43,29 +43,38 @@ export function WorkCard({
     : [];
 
   const content = (
-    <div
-      onClick={handleClick}
-      className={cn(
-        "group relative flex flex-col overflow-hidden rounded-xl bg-background border border-border transition-all duration-300 hover:shadow-lg cursor-pointer",
-        className
-      )}
-    >
-      {/* Image Section */}
-      {image && (
-        <div className="relative w-full h-[400px] bg-muted overflow-hidden">
-          <Image
-            src={image}
-            alt={title}
-            fill
-            className="object-contain transition-transform duration-300 group-hover:scale-105"
-          />
-        </div>
-      )}
+    <div className={cn("flex flex-col", className)}>
+      {/* Image Card Section */}
+      <div
+        onClick={handleClick}
+        className={cn(
+          "group relative flex flex-col overflow-hidden rounded-xl bg-background border border-border transition-all duration-300 hover:shadow-lg cursor-pointer",
+        )}
+      >
+        {image && (
+          <div className="relative w-full h-[400px] overflow-hidden p-8 flex items-center justify-center">
+            <div className="relative w-full h-full">
+              <Image
+                src={image}
+                alt={title}
+                fill
+                className="object-contain transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+          </div>
+        )}
+      </div>
 
-      {/* Content Section */}
-      <div className="flex flex-col p-8 relative">
-        <div className="flex items-center gap-2 mb-2">
-          <h3 className="text-4xl font-bold tracking-tight inline-flex items-center">
+      {/* Content Section - Outside the card */}
+      <div className="flex flex-col mt-6">
+        <div className="flex items-center justify-between gap-2 mb-2">
+          <h3 
+            onClick={description ? handleClick : undefined}
+            className={cn(
+              "text-3xl font-bold tracking-tight inline-flex items-center",
+              description && "cursor-pointer"
+            )}
+          >
             {title}
             {description && (
               <ChevronRightIcon
@@ -76,12 +85,12 @@ export function WorkCard({
               />
             )}
           </h3>
+          {/* Dates positioned inline with title */}
+          <div className="text-sm text-gray-400 font-bold">
+            {dates}
+          </div>
         </div>
         <p className="text-xl text-gray-400 font-bold">{subtitle}</p>
-        {/* Dates positioned at top right */}
-        <div className="absolute top-6 right-8 text-sm text-muted-foreground font-light">
-          {dates}
-        </div>
         {/* Expandable Description */}
         {description && (
           <motion.div
