@@ -28,7 +28,7 @@ export function WorkEducationTabs() {
           >
             Work
           </button>
-          <button
+          {/* <button
             onClick={() => setActiveTab("extracurriculars")}
             className={cn(
               "px-4 py-2 text-sm font-medium transition-colors border-b-2 -mb-[1px]",
@@ -38,7 +38,7 @@ export function WorkEducationTabs() {
             )}
           >
             Extracurriculars
-          </button>
+          </button> */}
         </div>
       </BlurFade>
 
@@ -79,7 +79,7 @@ export function WorkEducationTabs() {
         </div>
       )} */}
 
-      {activeTab === "extracurriculars" && (
+      {/* {activeTab === "extracurriculars" && (
         <div className="flex min-h-0 flex-col gap-y-3">
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -99,7 +99,7 @@ export function WorkEducationTabs() {
             </BlurFade>
           ))}
         </div>
-      )}
+      )} */}
     </section>
   );
 }
