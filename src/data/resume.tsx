@@ -145,7 +145,7 @@ export const DATA = {
     {
       title: "Quillio",
       href: "",
-      dates: "September 2024 - Present",
+      dates: "September 2025 - Present",
       active: true,
       description:
         "An AI journal that remembers everything you capture each day and uses it to help you make big decisions. Connects daily context (Stream) to strategic planning (Canvas) with pattern detection and insights, turning reflection and strategy into one continuous loop for founders and product builders.",
