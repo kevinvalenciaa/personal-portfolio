@@ -1,0 +1,7 @@
+{
+  "projectId": "12bd9eac-22f5-40fe-bea4-4b54cb56ab3a",
+  "createdAt": 1765430045504,
+  "startupCommands": [
+    "pnpm install; pnpm run dev"
+  ]
+}
