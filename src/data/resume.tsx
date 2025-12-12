@@ -143,31 +143,59 @@ export const DATA = {
   projects: [
     
     {
-      title: "QCorner",
+      title: "Quillio",
       href: "",
       dates: "September 2024 - Present",
       active: true,
       description:
-        "QCorner is a campus-exclusive marketplace for Queen’s University students to buy, sell, and trade items like textbooks, furniture, and event tickets, as well as offer services like tutoring and coffee chats. It features user profiles, item listings with images, and real-time messaging, providing a safe and convenient platform for student-to-student exchanges and service offerings.",
+        "An AI journal that remembers everything you capture each day and uses it to help you make big decisions. Connects daily context (Stream) to strategic planning (Canvas) with pattern detection and insights, turning reflection and strategy into one continuous loop for founders and product builders.",
       technologies: [
-        "React",
         "Next.js",
-        "Express.js",
-        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "Supabase",
+        "OpenAI",
+        "Python",
         "Tailwind CSS",
-        "Auth0",
       ],
       links: [
         {
-          /*type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,*/
+          type: "Website",
+          href: "https://www.usequillio.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Source",
-          href: "https://github.com/kevinvalenciaa/QCorner",
+          href: "https://github.com/kevinvalenciaa/quillio",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/qcorner.png",
+      image: "/SCR-20251128-brtx.jpeg",
+    },
+    {
+      title: "Optimum Start",
+      href: "",
+      dates: "September 2024 - April 2025",
+      active: true,
+      description:
+        "A reinforcement learning framework for HVAC optimization that combines physics-based thermal modeling with machine learning to reduce energy consumption by 15% while maintaining occupant comfort. Utilized deep neural networks and RL agents to create an intelligent building control system.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Stable Baselines 3",
+        "Gymnasium",
+        "pandas",
+        "NumPy",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://noda.ai/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/optimumstart.jpeg",
     },
     {
       title: "Voyentra AI",
