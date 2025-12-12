@@ -139,7 +139,7 @@ export default function Page() {
           </div>
        </a>
        </BlurFade>
-       <BlurFade delay={BLUR_FADE_DELAY}>
+       {/* <BlurFade delay={BLUR_FADE_DELAY}>
        <a href={DATA.contact.social.Resume.url} target="_blank" rel="noopener noreferrer" className="group relative inline-block">
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-emerald-500/60 to-green-400/60 opacity-0 blur transition-all duration-300 group-hover:opacity-100 group-hover:blur-md"></div>
           <div className="transform transition-all duration-300 ease-out group-hover:scale-125 group-hover:-translate-y-1 group-hover:rotate-3">
@@ -151,7 +151,7 @@ export default function Page() {
             my experience!
           </div>
        </a>
-       </BlurFade>
+       </BlurFade> */}
      </div>
       </section>
 
