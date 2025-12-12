@@ -195,7 +195,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/optimumstart.jpeg",
+      image: "/optimum-start.png",
     },
     {
       title: "Voyentra AI",

@@ -61,13 +61,15 @@ export function ProjectCard({
           />
         )}
         {image && (
-          <Image
-            src={image}
-            alt={title}
-            width={500}
-            height={300}
-            className="h-64 w-full overflow-hidden object-contain"
-          />
+          <div>
+            <Image
+              src={image}
+              alt={title}
+              width={200}
+              height={300}
+              className="h-56 w-full overflow-hidden object-cover object-center"
+            />
+          </div>
         )}
       </Link>
       <CardHeader className="px-2">
