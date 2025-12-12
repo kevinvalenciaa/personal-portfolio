@@ -164,11 +164,6 @@ export const DATA = {
           href: "https://www.usequillio.com/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/kevinvalenciaa/quillio",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "/SCR-20251128-brtx.jpeg",
     },
@@ -200,7 +195,7 @@ export const DATA = {
     {
       title: "Keylia AI",
       href: "",
-      dates: "2024 - Present",
+      dates: "May 2024 - Present",
       active: true,
       description:
         "An AI-powered voice assistant for real estate agents that handles inbound calls and outbound follow-ups 24/7. Qualifies leads, schedules showings, and syncs information via SMS and calendar integration. Built with a zero-login philosophy to seamlessly integrate into agents' existing workflows without requiring new software or dashboards.",
@@ -217,6 +212,18 @@ export const DATA = {
         },
       ],
       image: "/1.png",
+    },
+    {
+      title: "Kairos",
+      href: "",
+      dates: "December 2025 - Present",
+      active: true,
+      description:
+        "Redefining ML Cost Intelligence. Currently in Stealth.",
+      technologies: [
+      ],
+      links: [],
+      image: "/Component 1.png",
     },
     {
       title: "Voyentra AI",
