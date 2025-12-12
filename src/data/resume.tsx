@@ -198,6 +198,27 @@ export const DATA = {
       image: "/optimum-start.png",
     },
     {
+      title: "Keylia AI",
+      href: "",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "An AI-powered voice assistant for real estate agents that handles inbound calls and outbound follow-ups 24/7. Qualifies leads, schedules showings, and syncs information via SMS and calendar integration. Built with a zero-login philosophy to seamlessly integrate into agents' existing workflows without requiring new software or dashboards.",
+      technologies: [
+        "n8n",
+        "Retell AI",
+        "Supabase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://keylia-ai.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/1.png",
+    },
+    {
       title: "Voyentra AI",
       href: "",
       dates: "January 2025 - Present",
