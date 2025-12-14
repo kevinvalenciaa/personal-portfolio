@@ -4,7 +4,6 @@ import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import Stack from "@/components/Stack";
-import Particles from "@/components/Particles";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
@@ -45,7 +44,7 @@ const slugs = [
 export default function Page() {
   return (
     <>
-      <div className="fixed inset-0 -z-10 h-full w-full overflow-hidden pointer-events-none">
+      {/* <div className="fixed inset-0 -z-10 h-full w-full overflow-hidden pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/70 z-0"></div>
         <Particles 
           particleCount={700}
@@ -57,7 +56,7 @@ export default function Page() {
           disableRotation={false}
           className="w-full h-full"
         />
-      </div>
+      </div> */}
       
       <main className="flex flex-col min-h-[100dvh] space-y-10 relative z-10 backdrop-blur-[0px]">
 
