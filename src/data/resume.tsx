@@ -10,7 +10,7 @@ export const DATA = {
   location: "toronto, canada",
   locationLink: "",
   description:
-    "a digital repository.",
+    "swe @ clover labs | building kairos",
   summary:
     "",
     
