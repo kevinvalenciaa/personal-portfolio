@@ -158,7 +158,7 @@ export default function Page() {
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-l text-gray-500 space-y-100">
-            <span className="not-italic">{`📌`}</span> toronto, canada
+            i&apos;m a toronto based cs and stats student at queen&apos;s university building ai-native products from 0 to 1. i ship full stack apps fast, love automation and agents, and focus on turning messy real world workflows into simple software people actually use.
             </h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
@@ -193,10 +193,10 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  What I&apos;m building.
+                  what i&apos;m building.
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Building products that solve real problems. Shipping fast, iterating faster, and scaling what works.
+                  building products that solve real problems. i highly prioritize shipping fast, iterating faster, and scaling what works.
                 </p>
               </div>
             </div>
